@@ -47,7 +47,7 @@ We believe in  **learning by doing** ,  **sharing to grow** , and  **leading by 
 
 | Day | Title                        | Resources                                                                                                                                                                                                                                                                                                                     |
 | --- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | What is Penetration Testing? | ([📄 PDF](pdfs/Day-1-What-is-Penetration-Testing.pdf)) / ([📝 Blog]([#](https://medium.com/@the-pentrix/welcome-to-the-day-1-of-30-day-practical-pentesting-challenge-ee9aed4ae3e9))) / ([📢Linkedin Post]([#](https://www.linkedin.com/posts/the-pentrix_day-1-of-30-days-pentesting-challenge-activity-7318852622269005825-jyJH)) ) |
+| 1   | What is Penetration Testing? | ([📄 PDF](pdfs/Day-1-What-is-Penetration-Testing.pdf)) / ([📝 Blog](https://medium.com/@the-pentrix/welcome-to-the-day-1-of-30-day-practical-pentesting-challenge-ee9aed4ae3e9 )) / ([📢Linkedin Post](https://www.linkedin.com/posts/the-pentrix_day-1-of-30-days-pentesting-challenge-activity-7318852622269005825-jyJH) ) |
 | 2   | Coming Soon...               | Stay Tuned 🚀                                                                                                                                                                                                                                                                                                                 |
 
 > *(More days will be added daily. Follow and star this repo to stay updated!)*
@@ -60,4 +60,3 @@ We believe in  **learning by doing** ,  **sharing to grow** , and  **leading by 
 
 **Feel free to share, fork, and contribute. Let’s build a safer cyber world, together.**
 
-**#StayCurious #StaySecure #ThePenTrix**
