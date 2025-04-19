@@ -2625,3 +2625,19 @@ h4 {
     height: 50%; /* Adjust image size for mobile */
   }
 }
+
+
+
+.refresh-note {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border: 2px solid #ffeeba;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
