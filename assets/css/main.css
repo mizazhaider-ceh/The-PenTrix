@@ -994,6 +994,80 @@ h6 .accent-text {
 }
 
 /*--------------------------------------------------------------
+# icon Section
+--------------------------------------------------------------*/
+
+.stat-icon {
+  width: 100px; /* Set the size of the circle */
+  height: 100px; /* Set the size of the circle */
+ /* Hide any part of the image that exceeds the circle */
+  border-radius: 100%; /* Make the container round */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-icon img {
+  width: 60%; /* Make the image cover the entire circle */
+  height: 60%; /* Make the image cover the entire circle */
+ /* Ensures the image fills the circle without distortion */
+}
+
+.img-fluid-1 {
+  width: 400px;         /* Adjust width as needed */
+  height: 400px;        /* Adjust height as needed */
+  border-radius: 50%;   /* Makes it oval */
+  object-fit: cover;    /* Ensures image covers the oval area */
+  display: block;
+  margin: 0 auto;       /* Center the image horizontally */
+}
+
+.stat-icon2 {
+  width: 100px; /* Set the size of the circle */
+  height: 100px; /* Set the size of the circle */
+ /* Hide any part of the image that exceeds the circle */
+  border-radius: 100%; /* Make the container round */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-icon2 img {
+  width: 60%; /* Make the image cover the entire circle */
+  height: 40%; /* Make the image cover the entire circle */
+ /* Ensures the image fills the circle without distortion */
+}
+
+
+/* Mobile view adjustments */
+@media (max-width: 767px) {
+  .stat-icon2 {
+    width: 80px; /* Adjust circle size on smaller screens */
+    height: 80px; /* Adjust circle size on smaller screens */
+  }
+
+  .stat-icon2 img {
+    width: 50%; /* Adjust image size for mobile */
+    height: 50%; /* Adjust image size for mobile */
+  }
+}
+
+
+
+.refresh-note {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border: 2px solid #ffeeba;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
 .about .about-meta {
@@ -1865,107 +1939,6 @@ h4 {
 .button:active:after {
   background: teal;
 }
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
-* {
-  box-sizing: border-box;
-}
-.blog-section {
-  padding: 40px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.blog-card {
-  position: relative;
-  background-color: white;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.blog-card:hover {
-  transform: translateY(-5px);
-}
-
-.blog-image-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-.blog-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  transition: all 0.5s ease;
-}
-
-.blog-card:hover img {
-  filter: blur(2px) brightness(0.6);
-  transform: scale(1.05);
-}
-
-.read-more-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.4);
-  transition: opacity 0.4s ease;
-  z-index: 2;
-}
-
-.blog-card:hover .read-more-overlay {
-  opacity: 1;
-}
-
-.blog-content {
-  padding: 20px;
-}
-
-.blog-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #333;
-  text-align: center;
-}
-
-.blog-desc {
-  font-size: 14px;
-  color: #666;
-  line-height: 1.5;
-  text-align: center;
-}
-
-@media (max-width: 900px) {
-  .blog-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .blog-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /*--------------------------------------------------------------
 # Pricing Section
@@ -2571,73 +2544,4 @@ h4 {
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.stat-icon {
-  width: 100px; /* Set the size of the circle */
-  height: 100px; /* Set the size of the circle */
- /* Hide any part of the image that exceeds the circle */
-  border-radius: 100%; /* Make the container round */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.stat-icon img {
-  width: 60%; /* Make the image cover the entire circle */
-  height: 60%; /* Make the image cover the entire circle */
- /* Ensures the image fills the circle without distortion */
-}
-
-.img-fluid-1 {
-  width: 400px;         /* Adjust width as needed */
-  height: 400px;        /* Adjust height as needed */
-  border-radius: 50%;   /* Makes it oval */
-  object-fit: cover;    /* Ensures image covers the oval area */
-  display: block;
-  margin: 0 auto;       /* Center the image horizontally */
-}
-
-.stat-icon2 {
-  width: 100px; /* Set the size of the circle */
-  height: 100px; /* Set the size of the circle */
- /* Hide any part of the image that exceeds the circle */
-  border-radius: 100%; /* Make the container round */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.stat-icon2 img {
-  width: 60%; /* Make the image cover the entire circle */
-  height: 40%; /* Make the image cover the entire circle */
- /* Ensures the image fills the circle without distortion */
-}
-
-
-/* Mobile view adjustments */
-@media (max-width: 767px) {
-  .stat-icon2 {
-    width: 80px; /* Adjust circle size on smaller screens */
-    height: 80px; /* Adjust circle size on smaller screens */
-  }
-
-  .stat-icon2 img {
-    width: 50%; /* Adjust image size for mobile */
-    height: 50%; /* Adjust image size for mobile */
-  }
-}
-
-
-
-.refresh-note {
-  background-color: #fff3cd;
-  color: #856404;
-  padding: 15px 20px;
-  margin: 20px auto;
-  border: 2px solid #ffeeba;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  max-width: 800px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}

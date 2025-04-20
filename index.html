@@ -27,6 +27,8 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/blog.css" rel="stylesheet">
+  <link href="assets/css/title-animation.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +48,7 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#highlights">Highlights</a></li>
-          <li><a href="#methodlogy">Methodology</a></li>
+          <li><a href="#methodology">Methodology</a></li>
           <li><a href="#blog">Blog</a></li>
           <li><a href="#ceo">CEO</a></li>
           
@@ -220,7 +222,7 @@
     </section><!-- /About Section -->
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+    <section id="highlights" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -377,13 +379,13 @@
 
     </section><!-- /Features Cards Section -->
 
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Methodology of The PenTrix</h2>
-      <p>The PenTrix follows a structured methodology inspired by industry standards like PTES (Penetration Testing Execution Standard), ensuring each phase from information gathering to reporting is approached with precision, ethics, and real-world application.</p>
-    </div><!-- End Section Title -->
+
     <!-- Features 2 Section -->
     <section id="methodology" class="features-2 section">
-
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Methodology of The PenTrix</h2>
+        <p>The PenTrix follows a structured methodology inspired by industry standards like PTES (Penetration Testing Execution Standard), ensuring each phase from information gathering to reporting is approached with precision, ethics, and real-world application.</p>
+      </div><!-- End Section Title -->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row align-items-center">
@@ -545,9 +547,7 @@
 
     <!-- Clients Section -->
     <section id="clients" class="clients section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
             {
@@ -597,19 +597,19 @@
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
-
     </section><!-- /Clients Section -->
 
     <div class="refresh-note">
-      ⚠️ <strong>Note:</strong> If any sections below are not displaying properly, please refresh the page. Thank you! 🙏
+      ⚠️ <strong>Note:</strong> If any sections below are not displaying properly, please refresh the page.<br> Thank you! 🙏
     </div>
 
-    <div class="container section-title" data-aos="fade-up">
+  
+    <div class="container section-title" data-aos="">
       <h2><br>From the Blog </h2>
       <p>Discover Blog Posts by The PenTrix</p>
-    </div><!-- End Section Title -->
+    </div>
+
 
     <section id="blog" class="blog-section">
       <div class="blog-grid">
@@ -657,25 +657,24 @@
         <a href="https://medium.com/@the-pentrix" class="button">Check More</a>
       </div>
     </section>
-  
-    <!-- Testimonials Section -->
-    <section id="ceo" class="testimonials section light-background">
 
+
+    <!-- seo Section -->
+    <section id="ceo" class="testimonials section light-background">
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="glow-in">
         <h2>Meet CEO & FOUNDER</h2>
         <p>Discover the story, vision, and leadership behind the success of The PenTrix.</p>
       </div><!-- End Section Title -->
-
       <div class="container">
         <div class="row gx-2 gy-5"> <!-- reduced horizontal space with gx-2 -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="" data-aos-delay="100">
             <div class="founder-item">
               <!-- CEO/Founder Image -->
               <img src="assets/img/profile.jpg" class="founder-img" alt="CEO/Founder Image">
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6" data-aos="" data-aos-delay="200">
             <br><br><!-- CEO/Founder Name and Role -->
             <h3>Muhammad Izaz Haider</h3>
             <h4>CEO & FOUNDER | Penetration Tester</h4>
@@ -708,18 +707,18 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-5" data-aos="fade-up">
+          <div class="col-lg-5" data-aos="">
             <br>
             <h2 class="faq-title">Have a question? Check out the FAQ</h2>
             <p class="faq-description">Welcome to the FAQ section! Here, we address common questions to help you understand more about The PenTrix. If you have any other queries, feel free to reach out to us!</p>
-            <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-arrow d-none d-lg-block" data-aos="" data-aos-delay="200">
               <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
               </svg>
             </div>
           </div>
 
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-7" data-aos="" data-aos-delay="50">
             <div class="faq-container">
 
               <div class="faq-item faq-active">
@@ -784,7 +783,7 @@
     <section id="call-to-action-2" class="call-to-action-2 section dark-background">
 
       <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row justify-content-center" data-aos="" data-aos-delay="10">
           <div class="col-xl-10">
             <div class="text-center">
               <h3>We Invite You to Follow The PenTrix on LinkedIn!</h3>
@@ -801,20 +800,20 @@
     <section id="contact" class="contact section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="">
         <h2>Contact</h2>
         
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="" data-aos-delay="10">
 
         <div class="row g-4 g-lg-5">
           <div class="col-lg-5">
-            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-box" data-aos="" data-aos-delay="">
               <h3>Contact Info</h3>
               <p>At The PenTrix, we are always eager to hear from you! Whether you have questions, feedback, or ideas to share, we are here to listen and engage with the cybersecurity community. Reach out to us for collaborations, inquiries, or if you're looking for expert insights.</p>
 
-              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-item" data-aos="" data-aos-delay="10">
                 <div class="icon-box">
                   <i class="bi bi-geo-alt"></i>
                 </div>
@@ -824,7 +823,7 @@
                 </div>
               </div>
 
-              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="info-item" data-aos="" data-aos-delay="">
                 <div class="icon-box">
                   <i class="bi bi-telephone"></i>
                 </div>
@@ -835,7 +834,7 @@
                 </div>
               </div>
 
-              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+              <div class="info-item" data-aos="" data-aos-delay="">
                 <div class="icon-box">
                   <i class="bi bi-envelope"></i>
                 </div>
@@ -849,7 +848,7 @@
           </div>
 
           <div class="col-lg-7">
-            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-form" data-aos="" data-aos-delay="30">
               <h3>Get In Touch</h3>
               <p>We’d love to hear from you! Whether you have feedback, questions, or ideas to share, feel free to reach out to us. Our team at The PenTrix is always ready to connect with passionate individuals who are eager to explore the world of cybersecurity</p>
 
@@ -893,8 +892,8 @@
     <p>
       Built with love by a penetration tester who once started with zero <br> <strong>The PenTrix</strong> is my way of giving back. I hope it helped you today. Let me know how I can make it even better. 🤝Your feedback can help make this place even better — don’t be shy! ❤️    </p>
     <div class="footer-socials">
-      <a href="https://www.linkedin.com/company/the-pentrix/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/mizazhaider-ceh/The-PenTrix-30-Days-of-Practical-Pentesting" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/muhammad-izaz-haider-091639314/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mizazhaider-ceh/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       <a href="mailto:mizazhaderceh@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
     </div>
   </footer>

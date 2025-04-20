@@ -1,0 +1,52 @@
+.animated-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+/* Glow-in */
+.glow-in {
+    opacity: 0;
+    animation: glowIn 2s ease-in-out forwards;
+  }
+  @keyframes glowIn {
+    0% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    }
+  }
+
+  
+/* Reveal-delay */
+.reveal-delay {
+    opacity: 0;
+    animation: revealFade 2s ease forwards;
+    animation-delay: 1.2s;
+  }
+  @keyframes revealFade {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Zoom-in */
+  .zoom-in {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: zoomIn 1s ease-out forwards;
+    animation-delay: 1.8s;
+  }
+  @keyframes zoomIn {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
