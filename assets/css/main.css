@@ -1881,9 +1881,9 @@ h4 {
   align-items: center;       /* ✅ Center vertically */
   position: relative;
   padding: 0.6em 2em;
-  border: mediumspringgreen solid 0.15em;
+  border: rgb(9, 255, 181) solid 0.15em;
   border-radius: 0.25em;
-  color: mediumspringgreen;
+  color: rgb(0, 0, 0);
   font-size: 1.5em;
   font-weight: 600;
   cursor: pointer;
